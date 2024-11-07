@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+.header {
+    width: 100%;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu_div {
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    background-color: powderblue;
+}
+
+.contenedor_lista {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 20px;
+}
+
+.menu_li {
+    list-style: none;
+    text-emphasis: none;
+    display: flex;
+    text-align: center;
+}
+
+.link {
+    outline: none;
+    text-decoration: none;
+    color: rgb(41, 50, 47);
+    padding: 15px;
+    border: 1px solid none;
+    border-radius: 10px;
+    transition: background-color 0.5s ease; /* Transición para suavizar el cambio de color */
+}
+
+.link:hover {
+    background-color: red;
+    color: aliceblue;
+}
+
+.icon {
+    height: 60px;
+    margin: 20px;
+}
+
+.cart_content {
+    display: flex;
+    align-items: center;
+}
+
+
+.cart_icon {
+    height: 50px;
+    padding: 15px;
+    border: 1px solid none;
+    border-radius: 10px;
+    transition: background-color 0.5s ease; /* Transición para suavizar el cambio de color */
+}
+
+.cart_icon:hover {
+    background-color: red;
+    cursor: pointer;
+}
